@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ebac Banking</title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <div class="container">
       <h1>EBAC Banking</h1>
-      <h2>Depositos</h2>
+      <h2>Depósitos</h2>
       <form>
-        <input type="text" id="nome-beneficiario" placeholder="Nome completo do beneficiário"/>
-        <input type="number" id="numero-conta" placeholder="Número da conta" />
-        <input type="number"  id="valor-deposito" placeholder="Valor"/>
+        <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário"/>
+        <input type="number" id="numero-conta" required placeholder="Número da conta" />
+        <input type="number"  id="valor-deposito" required placeholder="Valor"/>
         <textarea id="descricao" placeholder="Descrição (opicional)"></textarea>
         <button id="btn-depositar" type="submit">DEPOSITAR</button>
       </form>
