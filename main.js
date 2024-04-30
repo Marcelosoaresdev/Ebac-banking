@@ -7,7 +7,7 @@ function validaNome(nomeCompleto) {
 
 form.addEventListener('submit', function (e) {
     let formEValido = false
-    e.preventDefault()
+    e.preventDefault() // Esse codigo serve para parar de atualizar o site quando se aperta no botao
 
     const nomeBeneficiario = document.getElementById('nome-beneficiario')
     const numeroContaBeneficiario = document.getElementById('numero-conta')
