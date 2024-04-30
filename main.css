@@ -52,3 +52,25 @@ button {
 button:hover {
     background-color: rgba(10, 124, 35, 0.699);
 }
+
+.success-message {
+    background-color: rgba(8, 87, 25, 0.699);
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
